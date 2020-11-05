@@ -1,6 +1,6 @@
 {
   "name": "@gregvanko/corexstream",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "stream video server",
   "main": "index.js",
   "scripts": {
