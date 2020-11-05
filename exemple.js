@@ -1,3 +1,4 @@
 let CorexStream = require('./index').CoreXStream
-let MyApp = new CorexStream()
+const Port = 5000
+let MyApp = new CorexStream(Port)
 MyApp.Start()
