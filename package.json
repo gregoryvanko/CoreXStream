@@ -1,17 +1,17 @@
 {
   "name": "@gregvanko/corexstream",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "stream video server",
   "main": "index.js",
   "scripts": {
     "start": "nodemon —inspect exemple.js",
     "save": "git add -A && git commit -a -m 'auto save' && npm version minor && npm publish && git push",
     "Prod": "npm --prefix /var/www/NodeJs/Production/CoreXStream update && npm --prefix /var/www/NodeJs/Production/CoreXStream version minor"
- },
- "nodemonConfig": {
+  },
+  "nodemonConfig": {
     "ext": "css, js",
     "delay": "5000"
- },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gregoryvanko/CoreXStream.git"
