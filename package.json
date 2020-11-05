@@ -1,7 +1,7 @@
 {
   "name": "@gregvanko/corexstream",
   "version": "1.0.0",
-  "description": "stream video",
+  "description": "stream video server",
   "main": "index.js",
   "scripts": {
     "start": "nodemon —inspect exemple.js",
